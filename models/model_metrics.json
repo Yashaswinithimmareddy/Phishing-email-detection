@@ -1,0 +1,61 @@
+{
+    "best_model": "Logistic Regression",
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "confusion_matrix": {
+                "true_negative": 60,
+                "false_positive": 0,
+                "false_negative": 0,
+                "true_positive": 60
+            }
+        },
+        "Naive Bayes": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "confusion_matrix": {
+                "true_negative": 60,
+                "false_positive": 0,
+                "false_negative": 0,
+                "true_positive": 60
+            }
+        },
+        "Random Forest": {
+            "accuracy": 1.0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1_score": 1.0,
+            "confusion_matrix": {
+                "true_negative": 60,
+                "false_positive": 0,
+                "false_negative": 0,
+                "true_positive": 60
+            }
+        }
+    },
+    "feature_columns": [
+        "urgent_keyword_count",
+        "credential_keyword_count",
+        "financial_keyword_count",
+        "threat_keyword_count",
+        "url_count",
+        "suspicious_url_count",
+        "has_ip_url",
+        "has_shortened_url_pattern",
+        "sender_domain_length",
+        "subdomain_count",
+        "suspicious_attachment",
+        "generic_greeting",
+        "contains_password_request",
+        "contains_personal_info_request",
+        "exclamation_count",
+        "uppercase_ratio",
+        "body_length",
+        "subject_length"
+    ]
+}
